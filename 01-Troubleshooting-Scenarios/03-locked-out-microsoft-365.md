@@ -33,3 +33,12 @@ The user's Authenticator app was on the old phone. With no way to approve the MF
 
 ## What I learned
 Always verify identity before changing sign-in methods. A request like this can also come from someone who doesn't own the account.
+
+## Practice in my lab
+In my Microsoft 365 lab I turned on self-service password reset (SSPR) in Entra ID. This lets users unlock their own account without calling the helpdesk. I also set it so a user needs 2 methods to prove who they are, for example the phone and the email.
+
+![SSPR turned on](images/03-sspr-enabled.png)
+
+![2 methods required](images/03-sspr-2-methods.png)
+
+More in my lab: [Microsoft 365 and Entra ID lab](https://github.com/sreza0134-dev/m365-entra-lab)

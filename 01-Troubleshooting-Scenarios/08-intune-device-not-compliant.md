@@ -39,3 +39,12 @@ The user turned off the phone passcode. The device no longer met the compliance 
 
 ## What I learned
 The device status in Intune shows which setting failed. Checking it first is faster than guessing.
+
+## Practice in my lab
+In my Intune lab I made a compliance policy for an iPhone. The policy has rules the device must follow. When a device does not follow them, Intune marks it as not compliant. After I set up the policy, the device showed as compliant. Looking at the policy settings is the first thing I check when a user says their device is not compliant.
+
+![Compliance policy settings](images/08-compliance-settings.png)
+
+![Device compliant](images/08-device-compliant.png)
+
+More in my lab: [Microsoft 365 and Entra ID lab](https://github.com/sreza0134-dev/m365-entra-lab)
