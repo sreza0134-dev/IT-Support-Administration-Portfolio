@@ -32,3 +32,10 @@ The Wi-Fi driver was out of date after a Windows update, so the adapter stopped 
 
 ## What I learned
 Check whether other devices work first. It shows whether the problem is the laptop or the network.
+
+## Practice in my lab
+When a laptop gets no good address, I check how it asks for one. In my Wireshark lab I captured a normal DHCP request on my own network. A device gets its address in 4 steps: Discover, Offer, Request, ACK. If the laptop never gets the Offer, the problem is the network or the router. If the laptop gets an address and still has no internet, I look at the gateway and DNS.
+
+![DHCP steps in Wireshark](images/01-dhcp-dora.png)
+
+More in my lab: [Lab 3: See the traffic](https://github.com/sreza0134-dev/network-labs/tree/main/lab-03-see-the-traffic)

@@ -32,3 +32,10 @@ The router's DHCP service stopped after a short power cut, so no device could ge
 
 ## What I learned
 A 169.254 address means the laptop asked for an address and got no reply. The next place to look is the router.
+
+## Practice in my lab
+I made this problem in Packet Tracer to see it for myself. My lab network has no DHCP server. When I set a PC to get its address by DHCP, it could not get one and gave itself an address starting with 169.254 and a mask of 255.255.0.0. There is no gateway and no DNS, so nothing outside the local network works.
+
+![PC with a 169.254 address](images/02-apipa-169-254.png)
+
+This means the PC asked for an address and got no answer. I check the cable or Wi-Fi, then the DHCP server, then the DHCP pool on the router. In my Lab 2 I fixed a similar problem on a DHCP pool: [Lab 2: Fix the broken network](https://github.com/sreza0134-dev/network-labs/tree/main/lab-02-fix-the-broken-network)

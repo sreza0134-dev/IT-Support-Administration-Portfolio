@@ -34,3 +34,10 @@ The laptop had a manually typed DNS server from an old office setup. That server
 
 ## What I learned
 Pinging an IP address and pinging a name tells you whether the problem is the connection or DNS.
+
+## Practice in my lab
+To see how DNS works, I ran `nslookup example.com` and watched it in Wireshark. My computer sends a DNS query ("what is the IP of example.com?") and gets an answer with the IP addresses. If a website does not load but I can ping an IP address, the answer is missing or wrong, so the problem is DNS and not the connection.
+
+![DNS query and answer in Wireshark](images/07-dns-query.png)
+
+More in my lab: [Lab 3: See the traffic](https://github.com/sreza0134-dev/network-labs/tree/main/lab-03-see-the-traffic)
