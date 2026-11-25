@@ -23,3 +23,7 @@ Ten practice tickets showing how I prioritize, document, and close requests. Eac
 - High: many people affected, a security risk, or someone cannot work at all
 - Medium: one person cannot do part of their work
 - Low: a request, or a small problem with an easy workaround
+
+## Jira lab
+
+I also created these 10 tickets in Jira Service Management and worked them through the steps, with priority, status and resolution. See the lab here: [jira-helpdesk-lab](https://github.com/sreza0134-dev/jira-helpdesk-lab)
