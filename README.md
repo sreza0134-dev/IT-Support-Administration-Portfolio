@@ -9,7 +9,7 @@ All data in this portfolio is fictional or comes from my own personal test envir
 | Section | What it shows | Status |
 |---|---|---|
 | [01 Troubleshooting Scenarios](01-Troubleshooting-Scenarios) | How I find and fix common IT problems | Done |
-| [02 Helpdesk Tickets](02-Helpdesk-Tickets) | How I prioritize, document, and close tickets | Done |
+| [02 Helpdesk Tickets](02-Helpdesk-Tickets) | How I prioritize, document, and close tickets. Also done in a real Jira lab: [jira-helpdesk-lab](https://github.com/sreza0134-dev/jira-helpdesk-lab) | Done |
 | [03 Microsoft 365 Lab](03-Microsoft365-Lab) | Entra ID, MFA, Intune, and compliance, with screenshots | Done |
 | [04 Networking Lab](04-Networking-Lab) | CCNA skills in practice | Done |
 | [05 Python IT Automation](05-Python-IT-Automation) | Two AI-powered IT tools | Done |
